@@ -220,7 +220,11 @@ h1, h2, h3 { line-height: 1.1; }
 
 h1 { font-size: 28px; margin-top: 72px; }
 
-h1:nth-child(5) { margin-top: -20px; }
+h1:nth-child(6) { margin-top: -20px; color: #f36e38; font-size: 16px; }
+
+h1:nth-child(7) { margin-top: -5px; }
+
+#index #aws #trombetas #suape h1:nth-child(5) { margin-top: -20px; }
 
 h2 { font-size: 24px; color: #393939; }
 
@@ -270,15 +274,15 @@ header h1 { font: 40px/48px "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicod
 
 header p { color: #d8d8d8; text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0; font-size: 18px; margin: 0px; }
 
-#banner { z-index: 100; left: 0; right: 50%; height: 50px; margin-right: -382px; position: fixed; top: 115px; background: rgba(66, 153, 158, 0.5); box-shadow: 0 8px 32px 0 rgba(101, 101, 101, 0.6); backdrop-filter: blur(14.5px); -webkit-backdrop-filter: blur(14.5px); border-radius: 10px; border: 1px solid #04C6CF; padding-right: 10px; /* .page { position:fixed; left:50%; margin-left:-40px; padding: 10px 12px; margin-top: 6px; line-height:14px; font-size:14px; background-color: #FFE788; } .fork2 { position:fixed; left:50%; margin-left:30px; padding: 10px 12px; margin-top: 6px; line-height:14px; font-size:14px; background-color: #FFE788; } */ }
+#banner { z-index: 100; left: 0; right: 50%; height: 50px; margin-right: -382px; position: fixed; top: 115px; background: rgba(66, 153, 158, 0.5); box-shadow: 0 8px 32px 0 rgba(122, 224, 228, 0.6); backdrop-filter: blur(14.5px); -webkit-backdrop-filter: blur(14.5px); border-radius: 10px; border: 1px solid #04C6CF; padding-right: 10px; /* .page { position:fixed; left:50%; margin-left:-40px; padding: 10px 12px; margin-top: 6px; line-height:14px; font-size:14px; background-color: #FFE788; } .fork2 { position:fixed; left:50%; margin-left:30px; padding: 10px 12px; margin-top: 6px; line-height:14px; font-size:14px; background-color: #FFE788; } */ }
 
-#banner .button { border: 1px solid #04C6CF; background: linear-gradient(#42999E, #01AAB2); border-radius: 2px; box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1); background-color: #42999E; margin-left: 5px; padding: 10px 12px; margin-top: 6px; line-height: 14px; font-size: 14px; color: #ffffff; font-weight: bold; text-align: center; }
+#banner .button { border: 1px solid #04C6CF; background: linear-gradient(#42999E, #01AAB2); border-radius: 2px; box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1); background-color: #42999E; margin-left: 5px; padding: 10px 12px; margin-top: 6px; line-height: 14px; color: #ffffff; font-weight: bold; text-align: center; }
 
 #banner .button:hover { background: linear-gradient(#01AAB2, #01AAB2); background-color: #01AAB2; }
 
 #banner .row { display: flex; justify-content: center; }
 
-#banner .page { width: 80px; padding: 8px; margin: 10px 4px 4px 4px; border: yellow 1px; font-size: 14px; background-color: #FFE788; }
+#banner .page { width: 100px; padding: 8px; margin: 10px 4px 4px 4px; border: yellow 1px; font-size: 12px; background-color: #FFE788; text-align: center; }
 
 #banner .downloads { float: right; margin: 0 45px 0 0; }
 
@@ -326,6 +330,6 @@ footer { width: 180px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 @media print, screen and (max-height: 680px) { footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
 
-@media print, screen and (max-height: 480px) { nav { display: none; } .mobile-button { display: inline; float: right; font-weight: bold; padding-right: 5px; } footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
+@media print, screen and (max-height: 480px) { nav { display: none; } /* #inicio .mobile-button { } */ .mobile-button { display: inline; float: right; font-weight: bold; padding-right: 5px; } footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
 
 /*# sourceMappingURL=style.css.map */

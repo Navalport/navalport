@@ -34,7 +34,17 @@ h1 {
   margin-top: 72px;
 }
 
-h1:nth-child(5) {
+h1:nth-child(6) {
+  margin-top: -20px;
+  color: #f36e38;
+  font-size: 16px;
+}
+
+h1:nth-child(7) {
+  margin-top: -5px;
+}
+
+#index #aws #trombetas #suape h1:nth-child(5) {
   margin-top: -20px;
 }
 
@@ -207,7 +217,7 @@ header {
   position: fixed;
   top: 115px;
 background: rgba( 66, 153, 158, 0.50 );
-box-shadow: 0 8px 32px 0 rgba( 101, 101, 101, 0.6 );
+box-shadow: 0 8px 32px 0 rgba(122, 224, 228, 0.6);
 backdrop-filter: blur( 14.5px );
 -webkit-backdrop-filter: blur( 14.5px );
 border-radius: 10px;
@@ -220,15 +230,15 @@ border: 1px solid #04C6CF;
     border: 1px solid #04C6CF;
     background: linear-gradient(#42999E, #01AAB2);
     border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0,0,0,.1);
     background-color: #42999E;
     margin-left: 5px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
-    font-size:14px;
     color:#ffffff;
     font-weight: bold;
+    
    
     text-align:center;
 
@@ -268,12 +278,14 @@ border: 1px solid #04C6CF;
  */
   
   .page{
-    width:80px;
+    width:100px;
     padding: 8px;
     margin: 10px 4px 4px 4px;
     border: yellow 1px;
-    font-size:14px;
+    font-size: 12px;
+    
     background-color: #FFE788;
+    text-align: center;
   }
   
   .downloads {
@@ -561,9 +573,9 @@ footer {
     display: none;
   }
 
-#inicio .mobile-button {
+/* #inicio .mobile-button {
   
-  }
+  } */
   
   .mobile-button {
     display: inline;
