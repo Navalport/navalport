@@ -13,7 +13,7 @@ body {
   font-weight:300;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: url(../images/body-background.png) #eae6d1;
+  background: #d1d1d1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +31,11 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  margin-top: 72px;
+}
+
+h1:nth-child(5) {
+  margin-top: -20px;
 }
 
 h2 {
@@ -45,6 +50,13 @@ h3, h4, h5, h6 {
 h3 {
   font-size: 18px;
   line-height: 24px;
+}
+
+.legend {
+  float: center;
+  margin: auto;
+  text-align: center;
+  color: red;
 }
 
 a {
@@ -147,6 +159,10 @@ dt {
   font-weight:700;
 }
 
+.mobile-button {
+  display: none;
+}
+
 header {
   padding: 25px 20px 40px 20px;
   margin: 0;
@@ -163,9 +179,9 @@ header {
   min-height: 76px;
 
   h1 {
-    font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 40px/48px "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     color: #f3f3f3;
-    text-shadow: 0px 2px 0px #235796;
+    text-shadow: 0px 2px 0px #ddaaaa;
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
@@ -190,45 +206,76 @@ header {
   margin-right:-382px;
   position: fixed;
   top: 115px;
-  background: #ffcc00;
-  border: 1px solid #f0b500;
-  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
-  border-radius: 0px 2px 2px 0px;
+background: rgba( 66, 153, 158, 0.50 );
+box-shadow: 0 8px 32px 0 rgba( 101, 101, 101, 0.6 );
+backdrop-filter: blur( 14.5px );
+-webkit-backdrop-filter: blur( 14.5px );
+border-radius: 10px;
+border: 1px solid #04C6CF;
+
+
   padding-right: 10px;
 
   .button {
-    border: 1px solid #dba500;
-    background: linear-gradient(rgb(255, 231, 136), rgb(255, 206, 56));
+    border: 1px solid #04C6CF;
+    background: linear-gradient(#42999E, #01AAB2);
     border-radius: 2px;
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
-    background-color: #FFE788;
+    background-color: #42999E;
     margin-left: 5px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    color:#333;
+    color:#ffffff;
     font-weight: bold;
-    display:inline-block;
+   
     text-align:center;
 
     &:hover {
-      background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
-      background-color: #ffeca0;
+      background: linear-gradient(#01AAB2, #01AAB2);
+      background-color: #01AAB2;
     }
   }
 
-  .fork {
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+ /*
+.page {
     position:fixed;
     left:50%;
-    margin-left:-325px;
+    margin-left:-40px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
     background-color: #FFE788;
   }
+ 
 
+ .fork2 {
+    position:fixed;
+    left:50%;
+    margin-left:30px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+ */
+  
+  .page{
+    width:80px;
+    padding: 8px;
+    margin: 10px 4px 4px 4px;
+    border: yellow 1px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+  
   .downloads {
     float: right;
     margin:0 45px 0 0;
@@ -261,12 +308,12 @@ header {
 
   #logo {
     position:absolute;
-    height: 36px;
+    height: 40px;
     width: 36px;
     right:7px;
     top:7px;
     display: block;
-    background: url(../images/octocat-logo.svg);
+    background: url(../images/navalport-logo.svg);
   }
 }
 
@@ -313,6 +360,8 @@ nav {
         a {
           font-weight: bold;
           color: #333;
+          
+           &:hover { color: #999; }
         }
 
         + .tag-h2 {
@@ -329,9 +378,9 @@ nav {
     }
 
     a {
-      color: #666;
+      color: #665;
 
-      &:hover { color: #999; }
+      &:hover { color: #888; }
     }
 
     // .active {
@@ -474,6 +523,13 @@ footer {
     margin-top: 5px;
   }
 
+  .mobile-button {
+    display: inline;
+    float: right;
+    font-weight: bold;
+    padding-right: 5px;
+  }
+  
   #banner { display: none;}
   header ul {
     display:none;
@@ -505,6 +561,17 @@ footer {
     display: none;
   }
 
+#inicio .mobile-button {
+  
+  }
+  
+  .mobile-button {
+    display: inline;
+    float: right;
+    font-weight: bold;
+   padding-right: 5px;
+  }
+  
   footer {
     text-align: center;
     margin: 20px auto;
