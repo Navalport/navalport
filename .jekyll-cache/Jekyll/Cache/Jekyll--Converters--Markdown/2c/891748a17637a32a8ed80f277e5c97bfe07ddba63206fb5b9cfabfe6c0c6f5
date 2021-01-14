@@ -1,0 +1,70 @@
+I"G<p><span id="inicio"></span></p>
+
+<h1 id="suape">SUAPE</h1>
+
+<h2 id="pgl-2x">PGL 2X</h2>
+<ol>
+  <li>Endereços IP</li>
+  <li>Senhas de Acesso
+    <h3 id="servidor">Servidor</h3>
+    <h3 id="clp">CLP</h3>
+    <h3 id="atop">ATOP</h3>
+  </li>
+  <li>Lasers
+    <h3 id="distância">Distância</h3>
+    <h3 id="recuo">Recuo</h3>
+    <h3 id="modelo">Modelo</h3>
+    <h3 id="configuração">Configuração</h3>
+  </li>
+  <li>Serviços
+    <h3 id="laser">Laser</h3>
+    <h3 id="modbus">Modbus</h3>
+    <h3 id="cais">CAIS</h3>
+    <h3 id="meteo">Meteo</h3>
+  </li>
+</ol>
+
+<h2 id="pgl-3a">PGL 3A</h2>
+<ol>
+  <li>Endereços IP</li>
+  <li>Senhas de Acesso
+    <h3 id="servidor-1">Servidor</h3>
+    <h3 id="clp-1">CLP</h3>
+    <h3 id="atop-1">ATOP</h3>
+  </li>
+  <li>Lasers
+    <h3 id="distância-1">Distância</h3>
+    <h3 id="recuo-1">Recuo</h3>
+    <h3 id="modelo-1">Modelo</h3>
+    <h3 id="configuração-1">Configuração</h3>
+  </li>
+  <li>Serviços
+    <h3 id="laser-1">Laser</h3>
+    <h3 id="modbus-1">Modbus</h3>
+    <h3 id="cais-1">CAIS</h3>
+    <h3 id="meteo-1">Meteo</h3>
+  </li>
+</ol>
+
+<h2 id="pgl-3b">PGL 3B</h2>
+<ol>
+  <li>Endereços IP</li>
+  <li>Senhas de Acesso
+    <h3 id="servidor-2">Servidor</h3>
+    <h3 id="clp-2">CLP</h3>
+    <h3 id="atop-2">ATOP</h3>
+  </li>
+  <li>Lasers
+    <h3 id="distância-2">Distância</h3>
+    <h3 id="recuo-2">Recuo</h3>
+    <h3 id="modelo-2">Modelo</h3>
+    <h3 id="configuração-2">Configuração</h3>
+  </li>
+  <li>Serviços
+    <h3 id="laser-2">Laser</h3>
+    <h3 id="modbus-2">Modbus</h3>
+    <h3 id="cais-2">CAIS</h3>
+    <h3 id="meteo-2">Meteo</h3>
+  </li>
+</ol>
+:ET
