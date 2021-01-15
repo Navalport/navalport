@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Suape
+title: Manual de Usuário Suape
 ---
 
 <span id="suape">

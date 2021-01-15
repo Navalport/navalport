@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AWS
+title: Manual de Usuário AWS
 ---
 
 <span id="aws">

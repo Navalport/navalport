@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Início
+title: Manual de Usuário 
 ---
 
 <span id="inicio" markdown="1">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trombetas
+title: Manual de Usuário Trombetas
 ---
 
 <span id="trombetas">
